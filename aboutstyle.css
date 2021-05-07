@@ -1,0 +1,38 @@
+nav{
+  text-align: center;
+}
+nav ul{
+  list-style-type: none;
+  background-color: #2F4F4F;
+  color:  white;
+  line-height: 40px;
+  padding: 0px;
+}
+nav li{
+  display: inline;
+}
+nav li a{
+  color: white;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+nav a{
+  color: white;
+}
+nav li a:hover {
+  background-color: #00CED1;
+  color: black;
+  line-height: 40px;
+}
+body{
+  background-color: #5F9EA0;
+  font-family: verdana, sans-seif;
+  border: 15px solid white;
+  color: white;
+  text-align: center;
+}
+h1{
+  background-color: black;
+  padding: 50px;
+
+}
