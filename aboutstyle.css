@@ -14,15 +14,15 @@ nav li{
 nav li a{
   color: white;
   padding: 20px 40px;
+}
+a{
+  color: white;
   text-decoration: none;
 }
-nav a{
-  color: white;
-}
-nav li a:hover {
+li a:hover {
   background-color: #00CED1;
   color: black;
-  line-height: 40px;
+  line-height: 20px;
 }
 body{
   background-color: #5F9EA0;
@@ -34,5 +34,29 @@ body{
 h1{
   background-color: black;
   padding: 50px;
+  outline-style: solid;
 
+}
+ul.no-bullets{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+div.content-large li{
+  padding: 10px;
+}
+.container{
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 50px 1fr 1fr 100px;
+  grid-gap: 10px;
+}
+.container div{
+  padding: 1px;
+  border: 5px solid white;
+  margin: 10px;
+  padding: 10px;
+}
+img{
+  width: 50%;
+  height: auto;
 }
